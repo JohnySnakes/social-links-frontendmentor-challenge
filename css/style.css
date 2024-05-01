@@ -1,0 +1,67 @@
+* {
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 0;
+   margin: 0;
+}
+body {
+   background-color: #111;
+   color: white;
+   min-height: 100vh;
+}
+a,
+a:visited {
+   color: #fff;
+   text-decoration: none;
+}
+.card {
+   text-align: center;
+
+   padding: 2rem;
+   margin: 3rem auto;
+   width: max-content;
+   width: 33%;
+   min-width: 350px;
+
+   background-color: #222;
+   border-radius: 10px;
+}
+.card img {
+   border-radius: 50%;
+}
+.card a {
+   display: block;
+   text-align: center;
+   
+   padding: 1rem;
+   margin: 1rem 0;
+
+   background-color: #333;
+   border-radius: 8px;
+   transition: ease-in-out, 300ms;
+}
+.card a:hover {
+   background-color: #76ABAE;
+}
+.card h1 {
+   margin: 1rem 0 0 0;
+}
+.card h2 {
+   font-size: 1rem;
+   font-style: normal;
+   font-weight: lighter;
+}
+.card h2:nth-child(3) {
+   color: #76ABAE;
+   margin-bottom: 2rem;
+}
+.attribution {
+   width: 100%;
+   padding: 1rem;
+
+   text-align: center;
+}
+.attribution a,
+.attribution a:visited {
+   color: #76ABAE;
+}
